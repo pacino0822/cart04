@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
 div {
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +28,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    font-family: 'Sawarabi Gothic', sans-serif;
     background-color: white;
 }
 
@@ -113,9 +116,13 @@ h2 {
     background-color: white;
 }
 
+#table04 th,
+#table04 td {
+    border: 1px solid #999;
+}
+
 .pic {
     margin-bottom: 30px;
-    overflow-x: scroll;
 }
 
 .pic2 {
@@ -172,6 +179,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width:600px) and (max-width:799px) {
     #container {
         width: 500px;
@@ -186,6 +197,9 @@ a:hover {
     }
     .pic3 {
         width: 80%;
+    }
+    .pic {
+        overflow-x: scroll;
     }
 }
 
@@ -203,5 +217,12 @@ a:hover {
     }
     .pic3 {
         width: 80%;
+    }
+    .hide {
+        display: inline;
+        color: red;
+    }
+    .pic {
+        overflow-x: scroll;
     }
 }
