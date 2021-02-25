@@ -27,7 +27,7 @@ h2 {
 #container {
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 800px;
     background-color: white;
 }
 
@@ -58,16 +58,15 @@ h2 {
 }
 
 #table02 {
+    width: 100%;
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
 }
 
 #table02 th,
 #table02 td {
     border: 1px solid #999;
-    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #table02 th {
@@ -76,7 +75,6 @@ h2 {
 }
 
 #table03 {
-    width: 70%;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
@@ -95,19 +93,21 @@ h2 {
     background-color: rgba(149, 203, 235, 0.973);
 }
 
+#comment {
+    padding: 15px;
+    border: 1px solid #999;
+}
+
 #comment p {
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
-    border: solid 1px;
     text-decoration: underline dotted black;
     line-height: 2;
     text-align: left;
 }
 
 #table04 {
-    width: 70%;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
@@ -121,12 +121,8 @@ h2 {
     border: 1px solid #999;
 }
 
-.pic {
-    margin-bottom: 30px;
-}
-
 .pic2 {
-    width: 80%;
+    width: 100％;
 }
 
 .pic3 {
@@ -181,6 +177,48 @@ a:hover {
 
 .hide {
     display: none;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #00FFFF;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #00CCFF;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid#0066CC;
+}
+
+.left {
+    text-align: left;
+}
+
+.title {
+    text-align: left;
+}
+
+.ref {
+    text-align: right;
+}
+
+#theme {
+    color: #111188;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 @media (min-width:600px) and (max-width:799px) {
