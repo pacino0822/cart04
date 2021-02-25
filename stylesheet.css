@@ -74,7 +74,8 @@ h2 {
     background-color: rgb(224, 218, 218);
 }
 
-#table03 {
+.table03 {
+    width: 100%;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
@@ -82,13 +83,13 @@ h2 {
     margin-top: 30px;
 }
 
-#table03 th,
-#table03 td {
+.table03 th,
+.table03 td {
     border: solid 1px #aaa;
     padding: 20px 15px;
 }
 
-#table03 th {
+.table03 th {
     width: 30%;
     background-color: rgba(149, 203, 235, 0.973);
 }
@@ -119,6 +120,26 @@ h2 {
 #table04 th,
 #table04 td {
     border: 1px solid #999;
+}
+
+#table05 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#table05 th,
+#table05 td {
+    border: solid 1px #aaa;
+    padding: 20px 15px;
+}
+
+#table05 th {
+    width: 30%;
+    background-color: rosybrown;
 }
 
 .pic2 {
